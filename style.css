@@ -1,34 +1,53 @@
 body{
-    background: red;
+    background:#F7F7F7;
 }
 .toparea{
     width:auto;
     height:200px;
     font-family: cursive;
+    background:#F0A951;
 }
 .toparea h1{
     text-align:center;
+    margin-top:50px;
+}
+.boxarea{
+    background:linear-gradient(to right, #1077e5 20%,#D8B16C 80%);
 }
 .first-cols{
     height:100px;
     padding:100px 10px;
-    margin-left:200px;
+    margin-left:150px;
     margin-top:300px;
-    margin-bottom:5px;
+}
+.first-cols img{
+    margin-bottom:50px;
 }
 .second-cols{
     padding:75px 10px;
     margin-top:200px;
 }
+.second-cols img{
+    margin-bottom:50px;
+}
 .third-cols{
     padding:50px 10;
     margin-top:100px;
+}
+.third-cols img{
+    margin-bottom:50px;
 }
 .fifth-cols{
     padding:75px 0;
     margin-top:200px;
 }
+.fifth-cols img{
+    margin-bottom:50px;
+}
 .sixth-cols{
     padding:100px 0;
     margin-top:300px;
+}
+.sixth-cols img{
+    margin-bottom:50px;
 }
