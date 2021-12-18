@@ -13,16 +13,21 @@ body{
     height:100px;
     padding:100px 10px;
     margin-left:200px;
+    margin-top:200px;
 }
 .second-cols{
     padding:75px 10px;
+    margin-top:200px;
 }
 .third-cols{
     padding:50px 10;
+    margin-top:200px;
 }
 .fifth-cols{
     padding:75px 0;
+    margin-top:200px;
 }
 .sixth-cols{
     padding:100px 0;
+    margin-top:200px;
 }
