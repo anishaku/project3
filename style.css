@@ -6,3 +6,23 @@ body{
     height:200px;
     font-family: cursive;
 }
+.toparea h1{
+    text-align:center;
+}
+.first-cols{
+    height:100px;
+    padding:100px 10px;
+    margin-left:200px;
+}
+.second-cols{
+    padding:75px 10px;
+}
+.third-cols{
+    padding:50px 10;
+}
+.fifth-cols{
+    padding:75px 0;
+}
+.sixth-cols{
+    padding:100px 0;
+}
