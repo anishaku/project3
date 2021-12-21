@@ -67,6 +67,29 @@ body{
     height:500px;
     float:left;
 }
+.darea h1{
+    color:black;
+    text-align:center;
+    overflow:hidden;
+    margin-top:40px;
+}
+.darea h1:before,h1:after{
+    content:" ";	
+    width:50%;
+    height:1px;
+    background:black;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+}
+.darea h1:before{
+    right:10px;
+    margin-left:-50%;
+}
+.darea h1:after{
+    left:10px;
+    margin-right:-50%;
+}
 .d1{
     width:350px;
     height:400px;
@@ -117,10 +140,10 @@ body{
     float:left;
 }
 .e1{
-    width:350px;
-    height:400px;
+    width:450px;
+    height:500px;
     float:left;
-    margin:100px 30px 50px 0;
+    margin:600px 30px 50px 0;
     position:relative;
 }
 .e1 img{
