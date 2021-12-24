@@ -12,15 +12,48 @@
   </head>
   <body>
     <header class="toparea">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="col-md-3 col-12">
                     <h1>Hand Drawings</h1>
+                </div>
+                <div class="col-md-9 col-12">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Our Collection
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
                 </div>
             </div>
         </div>
     </header>
-    <section>
+    <!--<section>
       <div class="container">
         <div class="row">
           <div class="col">
@@ -55,7 +88,7 @@
           </form>
         </div>
       </nav>
-    </section>
+    </section>-->
     <section>
         <div class="container-fluid">
             <div class="row">
@@ -87,7 +120,7 @@
     </section>
     <section class="boxarea">
       <div class="container-fluid">
-          <div class="row">
+          <div class="row justify-content-center align-items-center">
             <div class="col-md-2 col-12 first-cols">
     	               
               <img src="img/box1.jpg " />
@@ -133,10 +166,10 @@
           <h1>RECENT WORK</h1>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center align-items-center">
         <div class="col-md-4 col-12">
           <div class="d1">
-            <img src="img/d2.jpg" alt="">
+            <img src="img/d2.jpg" alt="" class="img-fluid">
             <div class="details">
               <h3>OIL PAINTING</h3>
             </div>
@@ -144,7 +177,7 @@
         </div>
         <div class="col-md-4 col-12">
           <div class="d1">
-            <img src="img/d3.jpg" alt=""> 
+            <img src="img/d3.jpg" alt="" class="img-fluid"> 
             <div class="details">
               <h3>COLOUR PAINTING</h3>
             </div>   
@@ -152,14 +185,14 @@
         </div>
         <div class="col-md-4 col-12">
           <div class="d1">
-            <img src="img/d4.jpg" alt="">
+            <img src="img/d4.jpg" alt="" class="img-fluid">
             <div class="details">
               <h3>CHARCOL PAINTING</h3>
             </div>  
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center align-items-center">
         <div class="col-md-3 col-12">
           <div class="d2">
             <img src="img/d5.jpg" alt="">
@@ -195,8 +228,13 @@
       </div>
     </div>
   </section>
-  <section class="earea">
+  <!--<section class="earea">
     <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1>OUR COLLECTION</h1>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-3 col-12">
           <div class="e1">
@@ -232,20 +270,96 @@
         </div>
       </div>
     </div>  
-  </section>
-  <section class="footerarea">
+  </section>-->
+  <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-12">
+        <div class="col">
           <h3>MENU</h3>
+          <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>GALLARY</li>
+            <li>OUR COLLECTION</li>
+          </ul>
         </div>
-        <div class="col-md-3 col-12"></div>
-        <div class="col-md-3 col-12"></div>
-        <div class="col-md-3 col-12"></div>
+        <div class="col">
+          <h3>QUICK LINKS</h3>
+          <ul>
+            <li>REGISTER\LOGIN</li>
+            <li>CONTACT US</li>
+            <li>TERMS AND CONDITIONS</li>
+            <li>PRIVACY POLICY</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>VISITOR DETAILS</h3>
+          <p>YOUR IP:</p>
+          <p>BROWSER:CHROME</p>
+        </div>
+        <div class="col">
+          <h3>CONTACT US</h3>
+        </div>
       </div>
     </div>
-  </section>
-
+  </footer>
+  <!--<footer>
+ <section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+  </footer>-->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
