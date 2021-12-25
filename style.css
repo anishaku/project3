@@ -1,12 +1,5 @@
-body{
-    background:#F7F7F7;
-}
-.mainarea{
-    background:;
-}
+
 .toparea{
-    width:auto;
-    height:150px;
     font-family: cursive;
     /*background:linear-gradient(to right, #EC852C,#94400C);*/
 }
@@ -18,6 +11,14 @@ body{
 .navbar{
     margin-top:50px;
 }
+.slidearea{
+    height:auto;
+    background-size:cover;
+}
+.slidearea img{
+    width:100%;
+    height:auto;
+}
 .boxarea{
     background:linear-gradient(to right, #1077e5 20%,#D8B16C 80%);
 }
@@ -27,6 +28,11 @@ body{
     margin:15px 0;
     border:1px solid black;
     border-radius:20px;
+    transition:transform;
+	transition-duration:2s;
+}
+.boxarea img:hover{
+    transform:scale(1.1,1.1);
 }
 /*.first-cols{
     height:100px;
@@ -76,9 +82,6 @@ body{
     border-radius:20px;
 }*/
 .darea{
-    width:100%;
-    height:1000px;
-    float:left;
     background:white;
 }
 .darea h1{
@@ -111,14 +114,14 @@ body{
     margin:100px 30px 50px 0;
     position:relative;
 }
-.d1 img{
+/*.d1 img{
     width:100%;
     height:100%;
-}
+}*/
 .details{
     position:absolute;
     bottom:0;
-    width:350px;
+    width:320px;
     padding:25px;
     text-align:center;
 	background:rgba(0,0,0,0.4);
@@ -135,12 +138,12 @@ body{
 }
 .d2 img{
     width:100%;
-    height:100%;
+    height:auto;
 }
 .details1{
     position:absolute;
     bottom:0;
-    width:250px;
+    width:230px;
     padding:5px;
     text-align:center;
 	background:rgba(0,0,0,0.4);
@@ -202,7 +205,7 @@ body{
     border-radius:100px;
 }*/
 /* Footer */
-/*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
 }
@@ -214,7 +217,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: red !important;
+    background:#0095A1 !important;
 }
 #footer h5{
 	padding-left: 10px;
@@ -226,7 +229,7 @@ section .section-title {
 #footer a {
     color: #ffffff;
     text-decoration: none !important;
-    background-color: transparent;
+    background-color:#0095A1 transparent;
     -webkit-text-decoration-skip: objects;
 }
 #footer ul.social li{
@@ -275,8 +278,11 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
-}*/
-.footer{
-    background:red;
 }
+/*.footer{
+    background:url('img/bg1.jpg') no-repeat cover;
+   /* background-size:cover;
+    background-repeat:no-repeat;
+    padding:200px 0;
+}*/
 
