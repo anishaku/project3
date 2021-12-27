@@ -22,13 +22,12 @@
 .details4{
     position:absolute;
     bottom:0;
-    /*width:100%;*/
-    padding:410px 700px 200px 700px;
+    width:100%;
+    /*padding:410px 700px 200px 700px;*/
     text-align:center;
-	background:rgba(0,0,0,0.4);
-	font-weight:bold;
-	color:white;
-    border-radius:100px;
+    background:rgba(0,0,0,0.4);
+    font-weight:bold;
+    color:white;
 }
 .boxarea{
     background:linear-gradient(to right, #1077e5 20%,#D8B16C 80%);
