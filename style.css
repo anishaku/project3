@@ -4,18 +4,17 @@
     /*background:linear-gradient(to right, #EC852C,#94400C);*/
 }
 .toparea h1{
-    /*text-align:center;*/
-    margin:40px 0 0 50px;
+    margin-bottom:-40px;
     color:black;
     font-family: 'Comforter', cursive;
     font-family: 'Corinthia', cursive;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Cormorant Garamond', serif;
     font-family: 'Estonia', cursive;
     font-family: 'Fuzzy Bubbles', cursive;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pushster', cursive;
 }
 .navbar{
-    margin-top:40px;
+    margin-top:50px;
 }
 .toparea li{
     color: #000;
@@ -25,7 +24,7 @@
 .toparea li:after {    
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     left:50%;
     position: absolute;
     background: #000;
@@ -131,12 +130,12 @@
     text-align:center;
     overflow:hidden;
     margin-top:40px;
+    /*font-weight:600;*/
     font-family: 'Comforter', cursive;
     font-family: 'Corinthia', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
-    font-family: 'Permanent Marker', cursive;   
+    font-family: 'Fuzzy Bubbles', cursive;   
 }
 .darea h1:before,.darea h1:after{
     content:" ";	
@@ -174,9 +173,14 @@
     padding:5px;
     text-align:center;
 	background:rgba(0,0,0,0.4);
-	font-weight:bold;
+	/*font-weight:bold;*/
 	color:white;
     border-radius:100px;
+    font-family: 'Comforter', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Estonia', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 .d2{
     /*width:250px;
@@ -200,6 +204,11 @@
 	font-weight:bold;
 	color:white;
     border-radius:50px;
+    font-family: 'Comforter', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Estonia', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 .earea{
     background:white;
@@ -208,6 +217,11 @@
     color:black;
     text-align:center;
     overflow:hidden;
+    font-family: 'Comforter', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Estonia', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 .earea h1:before,.earea h1:after{
     content:" ";	
@@ -247,6 +261,11 @@
 	background:rgba(0,0,0,0.4);
 	font-weight:bold;
 	color:white;
+    font-family: 'Comforter', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Estonia', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
     /*border-radius:50px;*/
 }
 /* Footer */
@@ -264,7 +283,7 @@ section .section-title {
 #footer {
     background:#0095A1 !important;
 }
-#footer h5{
+#footer h3{
 	padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
