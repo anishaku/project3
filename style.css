@@ -1,3 +1,7 @@
+body{
+    background: red;
+    margin:0 auto;
+}
 .rarea{
     width:100%;
     background:#343A40;
@@ -13,6 +17,9 @@
 }
 .toparea{
     background:white;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 .toparea h1{
     margin-bottom:-50px;
@@ -23,6 +30,10 @@
     font-family: 'Estonia', cursive;
     font-family: 'Fuzzy Bubbles', cursive;
     font-family: 'Pushster', cursive;
+}
+.toparea img{
+    width:100px;
+    height:100px;
 }
 .navbar{
     margin-top:50px;
@@ -47,7 +58,7 @@
     left: 0; 
 }
 .slidearea{
-    height:auto;
+    /*height:auto;*/
     background-size:cover;
     position:relative;
 }
