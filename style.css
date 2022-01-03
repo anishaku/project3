@@ -22,7 +22,7 @@ body{
     z-index:1000;
 }
 .toparea h1{
-    margin-bottom:-50px;
+    /*margin-bottom:-50px;*/
     color:black;
     font-family: 'Comforter', cursive;
     font-family: 'Corinthia', cursive;
@@ -31,12 +31,12 @@ body{
     font-family: 'Fuzzy Bubbles', cursive;
     font-family: 'Pushster', cursive;
 }
-.toparea img{
+/*.toparea img{
     width:100px;
     height:100px;
-}
+}*/
 .navbar{
-    margin-top:50px;
+    margin-top:30px;
 }
 .toparea li{
     color: #000;
@@ -61,6 +61,8 @@ body{
     /*height:auto;*/
     background-size:cover;
     position:relative;
+    margin:0;
+    padding:0;
 }
 .slidearea img{
     width:100%;
