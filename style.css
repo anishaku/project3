@@ -1,11 +1,9 @@
 body{
-    background: red;
-    /*margin:0 auto;*/
 }
 .rarea{
     width:100%;
     background:#343A40;
-    margin:0 10px;
+    margin:0;
     padding:30px 0;
     color:white;
     font-size:20px;
@@ -17,9 +15,9 @@ body{
 }
 .toparea{
     background:white;
-    position:sticky;
+    /*position:sticky;
     top:0;
-    z-index:1000;
+    z-index:1000;*/
 }
 .toparea h1{
     /*margin-bottom:-50px;*/
@@ -31,12 +29,12 @@ body{
     font-family: 'Fuzzy Bubbles', cursive;
     font-family: 'Pushster', cursive;
 }
-/*.toparea img{
+.toparea img{
     width:100px;
     height:100px;
-}*/
+}
 .navbar{
-    margin-top:30px;
+    margin-top:25px;
 }
 .toparea li{
     color: #000;
@@ -131,7 +129,8 @@ body{
     margin-right:-50%;
 }
 .d1{
-    margin:100px 30px 50px 0;
+    margin-top:100px;
+    /*margin:100px 30px 50px 0;*/
 }
 .d1 img{
     width:100%;
@@ -149,7 +148,8 @@ body{
     font-family: 'Fuzzy Bubbles', cursive;
 }
 .d2{
-    margin:10px 20px 0px 0;
+    margin-top:50px;
+    /*margin:10px 20px 0 0;*/
 }
 .d2 img{
     width:100%;
@@ -197,7 +197,8 @@ body{
     margin-right:-50%;
 }
 .e1{
-    margin:100px 30px 50px 0;
+    margin-top:100px;
+    /*margin:100px 30px 50px 0;*/
     position:relative;
 }
 .e1 img{
