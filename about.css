@@ -1,8 +1,14 @@
 .aboutus h1{
     color:#FFB709;
-    text-align:center;
-    padding:30px;   
-
+    text-align:center; 
+    font-size:75px;
+    font-family: 'Dancing Script', cursive;
+}
+.aboutus h5{
+    color:black;
+    text-align:center; 
+    font-size:35px; 
+    font-family: 'Pattaya', sans-serif;
 }
 .aboutus p{
     /*padding-top:50px;*/
@@ -18,10 +24,22 @@
     line-height: 32px;
     letter-spacing:5px;
     color: white;
-    top: 150px;
+    top: 100px;
     position: relative;
     text-align: center;
+    margin:30px 0;
   }
-top p{
-    color:#FFB709;
+p{
+    text-align: center;
+    color:black;
+}
+hr{
+    background-color: #FFB709;
+    width:50%;
+}
+h4{
+    text-align:center;
+    margin-top:-30px;
+    color:#FFB709 ;
+    padding-bottom:30px;
 }
