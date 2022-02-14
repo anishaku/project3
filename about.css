@@ -1,0 +1,27 @@
+.aboutus h1{
+    color:#FFB709;
+    text-align:center;
+    padding:30px;   
+
+}
+.aboutus p{
+    /*padding-top:50px;*/
+    text-align:justify;
+    font-size: larger;
+}
+.banner bg-image{
+    background-image: url('img/bg3.jfif');
+}
+.text {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 70px;
+    line-height: 32px;
+    letter-spacing:5px;
+    color: white;
+    top: 150px;
+    position: relative;
+    text-align: center;
+  }
+top p{
+    color:#FFB709;
+}
