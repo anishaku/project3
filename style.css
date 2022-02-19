@@ -16,12 +16,11 @@ body{
 .toparea{
     background:white;
     border-bottom:1px solid #000;
-    /*position:sticky;
+    position:sticky;
     top:0;
-    z-index:1000;*/
+    z-index:1000;
 }
 .toparea h1{
-    /*margin-bottom:-50px;*/
     color:black;
     font-family: 'Comforter', cursive;
     font-family: 'Corinthia', cursive;
@@ -57,7 +56,6 @@ body{
     left: 0; 
 }
 .slidearea{
-    /*height:auto;*/
     background-size:cover;
     position:relative;
     margin:0;
@@ -67,22 +65,6 @@ body{
     width:100%;
     height:100%;
 }
-/*.details4{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:auto;
-    padding:400px 0;
-    text-align:center;
-	background:rgba(0,0,0,0.4);
-	font-weight:bold;
-   /* font-size:5px;
-	color:white;
-    vertical-align:middle;
-}
-.slidearea h1{
-    font-size:200px;
-}*/
 .boxarea{
     background:linear-gradient(to right, #1077e5 20%,#D8B16C 80%);
 }
@@ -133,7 +115,6 @@ body{
 }
 .d1{
     margin-top:100px;
-    /*margin:100px 30px 50px 0;*/
 }
 .d1 img{
     width:100%;
@@ -152,7 +133,6 @@ body{
 }
 .d2{
     margin-top:50px;
-    /*margin:10px 20px 0 0;*/
 }
 .d2 img{
     width:100%;
@@ -201,7 +181,6 @@ body{
 }
 .e1{
     margin-top:100px;
-    /*margin:100px 30px 50px 0;*/
     position:relative;
 }
 .e1 img{
@@ -224,7 +203,6 @@ body{
     font-family: 'Estonia', cursive;
     font-family: 'Fuzzy Bubbles', cursive;
 }
-/* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;

@@ -1,302 +1,36 @@
 body{
-}
-.rarea{
-    width:100%;
-    background:#343A40;
-    margin:0;
-    padding:30px 0;
-    color:white;
-    font-size:20px;
     
 }
-.rarea a{
-    color:white;
-    text-decoration:none;
+.carea{
+    height: 450px;
+    background-image: url('img/anisha.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.toparea{
-    background:white;
-    border-bottom:1px solid #000;
-    /*position:sticky;
-    top:0;
-    z-index:1000;*/
-}
-.toparea h1{
-    /*margin-bottom:-50px;*/
-    color:black;
-    font-family: 'Comforter', cursive;
-    font-family: 'Corinthia', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
-    font-family: 'Pushster', cursive;
-}
-.toparea img{
-    width:100px;
-    height:100px;
-}
-.navbar{
-    margin-top:25px;
-}
-.toparea li{
-    color: #000;
-    display:inline-block;
+.text {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 70px;
+    letter-spacing:5px;
+    color: white;
+    top: 100px;
     position: relative;
+    text-align: center;
+  }
+.title{
+    padding:30px;
+    background-color: lightsteelblue;
 }
-.toparea li:after {    
-    content: "";
-    display: block;
-    height: 1px;
-    left:50%;
-    position: absolute;
-    background: #000;
-    transition: 0.3s ease;
-    width: 0;
-}
-.toparea li:hover:after { 
-    width: 100%; 
-    left: 0; 
-}
-.slidearea{
-    /*height:auto;*/
-    background-size:cover;
-    position:relative;
-    margin:0;
-    padding:0;
-}
-.slidearea img{
-    width:100%;
-    height:100%;
-}
-/*.details4{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:auto;
-    padding:400px 0;
-    text-align:center;
-	background:rgba(0,0,0,0.4);
-	font-weight:bold;
-   /* font-size:5px;
-	color:white;
+.title p{
     vertical-align:middle;
+    text-align: center;
 }
-.slidearea h1{
-    font-size:200px;
-}*/
-.boxarea{
-    background:linear-gradient(to right, #1077e5 20%,#D8B16C 80%);
+.title a:after{
+    content:">>";
 }
-.boxarea img{
-    width:100%;
-    height:auto;
-    margin:25px 0;
-    border:1px solid black;
-    border-radius:20px;
-    transition:transform;
-	transition-duration:1s;
-    opacity:0.6;
-}
-.boxarea img:hover{
-    transform:scale(1.1,1.1);
-    opacity:1;
+.title a:last-child:after{
+    content:" ";
 }
 .darea{
-    background:white;
-}
-.darea h1{
-    color:black;
-    text-align:center;
-    overflow:hidden;
-    margin-top:40px;
-    font-family: 'Comforter', cursive;
-    font-family: 'Corinthia', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;   
-}
-.darea h1:before,.darea h1:after{
-    content:" ";	
-    width:50%;
-    height:1px;
-    background:black;
-    position:relative;
-    display:inline-block;
-    vertical-align:middle;
-}
-.darea h1:before{
-    right:10px;
-    margin-left:-50%;
-}
-.darea h1:after{
-    left:10px;
-    margin-right:-50%;
-}
-.d1{
-    margin-top:100px;
-    /*margin:100px 30px 50px 0;*/
-}
-.d1 img{
-    width:100%;
-    height:100%;
-    border:1px solid black;
-}
-.details{
-    width:100%;
-    padding:5px;
-    border:1px solid black;
-    font-family: 'Comforter', cursive;
-    font-family: 'Corinthia', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
-}
-.d2{
-    margin-top:50px;
-    /*margin:10px 20px 0 0;*/
-}
-.d2 img{
-    width:100%;
-    height:auto;
-    border:1px solid black;
-}
-.details1{
-    width:100%;
-    padding:5px;
-    border:1px solid black;
-    font-family: 'Comforter', cursive;
-    font-family: 'Corinthia', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
-}
-.earea{
-    background:white;
-}
-.earea h1{
-    color:black;
-    text-align:center;
-    overflow:hidden;
-    font-family: 'Comforter', cursive;
-    font-family: 'Corinthia', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
-}
-.earea h1:before,.earea h1:after{
-    content:" ";	
-    width:50%;
-    height:1px;
-    background:black;
-    position:relative;
-    display:inline-block;
-    vertical-align:middle;
-}
-.earea h1:before{
-    right:10px;
-    margin-left:-50%;
-}
-.earea h1:after{
-    left:10px;
-    margin-right:-50%;
-}
-.e1{
-    margin-top:100px;
-    /*margin:100px 30px 50px 0;*/
-    position:relative;
-}
-.e1 img{
-    width:100%;
-    height:100%;
-    border:1px solid black;
-    border-radius:100%;
-}
-.details2{
-    bottom:0;
-    width:100%;
-    padding:5px;
-    text-align:center;
-	background:rgba(0,0,0,0.4);
-	font-weight:bold;
-	color:white;
-    font-family: 'Comforter', cursive;
-    font-family: 'Corinthia', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Estonia', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
-}
-/* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section {
-    padding: 60px 0;
-}
-
-section .section-title {
-    text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-#footer {
-    background:#120C03 !important;
-    padding-top:150px;
-}
-#footer h3{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
-}
-#footer a {
-    color: #ffffff;
-    text-decoration: none !important;
-    background-color:#120C03;
-    -webkit-text-decoration-skip: objects;
-}
-#footer ul.social li{
-	padding: 3px 0;
-}
-#footer ul.social li a i {
-    margin-right: 30px;
-	font-size:25px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
-}
-#footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
-}
-#footer ul.social li a,
-#footer ul.quick-links li a{
-	color:#fff;
-}
-#footer ul.social li a:hover{
-	color:#98782B;
-    text-shadow:5px 5px 3px gray;
-}
-#footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
-}
-#footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:10px;
-	font-weight:700;
-}
-#footer ul.quick-links li a i{
-	margin-right: 5px;
-}
-#footer ul.quick-links li:hover a i {
-    font-weight: 700;
-}
-
-@media (max-width:767px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
+    margin-top:-10px;
 }
