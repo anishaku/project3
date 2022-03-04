@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p id="marea"></p>
+        <script>
+            
+            var txt="<table border=1px cellspacing=0 cellpadding=20px>";
+            for(i=1;i<6;i++)
+            {
+                txt+="<tr><td>Roll "+i+ "</td></tr>";
+                //alert(i);
+                //document.write(i);
+            }
+            txt+="</table>";
+            document.getElementById("marea").innerHTML=txt;
+        </script>
+    </body>
+</html>

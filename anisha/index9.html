@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p id="marea"></p>
+        <script>
+            var p,r,t,si;
+            p=prompt("Enter principal amount");
+            r=prompt("Enter rate");
+            t=prompt("Enter time");
+            if(p<=0)
+            {
+                alert("invalid principal");
+            }
+            else if(r<=0)
+            {
+                alert("invalid rate");
+            }
+            else if(t<=0)
+            {
+                alert("invalid time");
+            }
+            else
+            {
+                si=(p*r*t)/100;
+                alert("S.I.="+si);
+            }
+        </script>
+    </body>
+</html>
