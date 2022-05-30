@@ -1,12 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <style type=text/css>
-        span{
-            color: red;
-        }
-    </style>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Corinthia&family=Cormorant+Garamond:ital,wght@1,300&family=Estonia&family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
@@ -20,7 +14,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
     <title>Hello, world!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -96,42 +90,26 @@
       <div class="container">
         <div class="row">
           <div class="col top2">
-            <form action="" name="reg" onsubmit="return fun()">
+            <form>
              <div class="row">
                <div class="col top">
-                 <input type="text" name="esname" class="form-control" placeholder="UserName">
-                 <span id="esname"></span>
+                 <input type="text" class="form-control" placeholder="First Name" aria-label="First name">
                </div>
-            </div>
-            <input type="email" name="eemail" class="form-control" placeholder="Email">
-            <span id="eemail"></span>
-            <input type="password" class="form-control" placeholder="Password">
-            <input type="password" class="form-control" placeholder="Confirm Password">
-             <button type="submit" class="btn1 btn-success">Create account</button>
+               <div class="col top">
+                 <input type="text" class="form-control" placeholder=" Last Name" aria-label="Last name">
+               </div>
+             </div>
+   
+            
+          <input type="email" class="form-control" placeholder="Your Email*" required>
+   
+             <input type="text" class="form-control" placeholder="Subject" aria-label="Last name">
+   
+             <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" placeholder="Your Message"></textarea>
+   
+             <button type="submit" class="btn1 btn-success">SEND MESSAGE</button>
+   
            </form>
-           <script>
-            function fun(){
-                var error=0;
-                var email=document.forms["reg"]["eemail"].value;
-                var atposition= email.indexOf("@");
-                var dotposition= email.lastIndexOf(".");
-                if(email=="")
-                {
-                    document.getElementById("eemail").innerHTML='email is mandatory';
-                    error=1;
-                }
-                else if(atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length)
-                {
-                    document.getElementById("eemail").innerHTML='Invalid email';
-                    error=1;
-                }
-                if(error==1)
-                {
-                    return false;
-                }
-            } 
-        </script>
-           <p>Don"t have a account? <a href="sign.html">Signup</a></p>
           </div>
         </div>
       </div>
@@ -158,6 +136,21 @@
 						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>PRIVACY POLICY</a></li>
 					</ul>
 				</div>
+        <!--<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>SHARE THIS PAGE</h5>
+					<div class="sh1">
+						<i class="fa fa-facebook"></i>
+					</div>
+					<div class="sh2">
+						<i class="fa fa-instagram"></i>
+					</div>
+					<div class="sh2">
+						<i class="fa fa-twitter"></i>
+					</div>
+					<div class="sh2">
+						<i class="fa fa-whatsapp"></i>
+					</div>
+        </div>-->
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h3>CONTACT US</h3>
 					<ul class="list-unstyled list-inline social text-center">

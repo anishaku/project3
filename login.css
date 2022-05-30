@@ -6,14 +6,13 @@
 .top2 p{
     margin:10px 0;
 }
-input[type=text]{
-    margin:10px 0px;
+input[type=email]{
+    margin:20px 0px;
     height:52px;
     box-shadow:none !important;
     border-color:rgb(255, 182, 6) !important;
 }
-
-input[type=email]{
+input[type=password]{
     margin:20px 0px;
     height:52px;
     box-shadow:none !important;

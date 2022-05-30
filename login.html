@@ -98,54 +98,36 @@
             <form action="" name="reg" onsubmit="return fun()">
               <div class="row">
                 <div class="col top">
-                  <input type="text" name="esname" class="form-control" placeholder="UserName"/>
-                  <span id="esname"></span>
+                  <input type="email" name="eemail" class="form-control" placeholder="Email"/>
+                  <span id="eemail"></span>
                 </div> 
               </div>
-              <input type="text" name="eemail" class="form-control" placeholder="email"/>
-              <span id="eemail"></span>
+              <input type="password" class="form-control" placeholder="Password"/>
               <button type="submit" class="btn1 btn-success">Login</button>
           </form>
           <script>
               function fun(){
                   var error=0;
-                  var sname=document.forms["reg"]["esname"].value;
-                  if(sname=="")
-                  {
-                      document.getElementById("esname").innerHTML='name is mandatory';
-                      error=1;
-                  }
-                  else if(sname.length<3)
-                  {
-                      document.getElementById("esname").innerHTML='Name-minimum 3 characters';
-                      error=1;
-                  }
-                  else if(!isNaN(sname))
-                  {
-                      document.getElementById("esname").innerHTML='name-numeric not allowed';
-                      error=1;
-                  }
                   var email=document.forms["reg"]["eemail"].value;
                   var atposition= email.indexOf("@");
                   var dotposition= email.lastIndexOf(".");
                   if(email=="")
                   {
-                      document.getElementById("esname").innerHTML='email is mandatory';
+                      document.getElementById("eemail").innerHTML='email is mandatory';
                       error=1;
                   }
                   else if(atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length)
                   {
-                      document.getElementById("esname").innerHTML='Invalid email';
+                      document.getElementById("eemail").innerHTML='Invalid email';
                       error=1;
                   }
                   if(error==1)
                   {
                       return false;
                   }
-              }
-              
+              } 
           </script>
-           <p>Don"t have a account? <a href="sign.html">Signup</a></p>
+           <p>Don"t have a account? <a href="signup.html">Signup</a></p>
           </div>
         </div>
       </div>
